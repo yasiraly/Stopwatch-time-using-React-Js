@@ -1,0 +1,38 @@
+* {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+button {
+  padding: 13px 10px;
+  width: 150px;
+  border: none;
+  margin: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+button:hover,
+:focus {
+  background-color: rgb(38, 37, 36);
+  transition: 0.3s;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+}
+
+.timer {
+  margin: 2rem 0rem;
+  font-size: 30px;
+  color: white;
+  text-shadow: 0px 0px 20px white;
+}
